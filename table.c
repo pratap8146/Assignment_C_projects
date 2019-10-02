@@ -9,7 +9,7 @@ void main()
     clrscr();
     printf("Enter any number: ");  //asking for user to input any number/
     scanf("%d",&n);
-    for(i=1;i<=10;i++)      //loop to multiply number by 1to10 one by one 
+    for(i=1;i<=10;i++)      //loop to multiply number by 1 to 10 one by one 
     {
         table=n*i;
         printf("%d*%d=%d\n",n,i,table);  //display the table.
